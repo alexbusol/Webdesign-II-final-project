@@ -9,8 +9,8 @@ on different pages, such as .stars and .gpic.
     background: linear-gradient(0deg, #e66465, #9198e5);
     margin: auto;
     width: 85%;
-	min-width: 1200px;
-	max-width: 1900px;
+    min-width: 1200px;
+    max-width: 1900px;
     min-height: 750px;
     max-height: 5000px;
     
@@ -145,9 +145,9 @@ nav {
 }
 nav ul {
   
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     width: 100%;
 
@@ -158,19 +158,19 @@ nav li {
     width: 19%;
 }
 nav a {
-	text-decoration: none;
+    text-decoration: none;
     text-align: center;
-   background: #26222d;
-    padding: 14px 51px;
+    background: #26222d;
+    padding: 14px 50px;
     display: block;
 }
 
 nav a:link {
-	color: #FFFFFF; 
+    color: #FFFFFF; 
 }
 
 nav a:visited {
-	color: #EAEAEA;
+    color: #EAEAEA;
 }
 
 nav a:hover {
