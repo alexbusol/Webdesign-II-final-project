@@ -1,16 +1,16 @@
 /*
 Oleksandr Busol Final Project
-main css file responsible all others. 
-There are blocks that customize the display of
-images on different pages.
+main css file responsible for all other html files.
+There are blocks that customize the display of images
+on different pages, such as .stars and .gpic.
 */
 
 #wrapper {
     background: linear-gradient(0deg, #e66465, #9198e5);
     margin: auto;
     width: 85%;
-    min-width: 1200px;
-    max-width: 1900px;
+	min-width: 1200px;
+	max-width: 1900px;
     min-height: 750px;
     max-height: 5000px;
     
@@ -65,11 +65,10 @@ footer {
 }
 
 .images {
-    position: relative; 
-    width: 100% 
-    max-width: 600px; 
+    position:relative; 
+    width:100%; 
     margin: auto; 
-    text-align: center;
+    text-align:center;
     padding-top: 30px;
     padding-bottom: 100px;
 }
@@ -78,7 +77,6 @@ footer {
     position:relative;
     display: inline-block;
     padding:10px;
-
     height: 250px;
     width: auto;
  
@@ -99,12 +97,11 @@ img {
 
 
 .stars {
-    position: relative; 
-    width: 100% 
-    max-width: 600px; 
+    position:relative; 
+    width:100%; 
     margin: auto; 
     padding-bottom: 15px;
-    text-align: center;
+    text-align:center;
 }
 
 
@@ -148,9 +145,9 @@ nav {
 }
 nav ul {
   
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
     overflow: hidden;
     width: 100%;
 
@@ -161,22 +158,22 @@ nav li {
     width: 19%;
 }
 nav a {
-    text-decoration: none;
+	text-decoration: none;
     text-align: center;
-    background: #26222d;
+   background: #26222d;
     padding: 14px 51px;
     display: block;
 }
 
 nav a:link {
-    color: #FFFFFF; 
+	color: #FFFFFF; 
 }
 
 nav a:visited {
-    color: #EAEAEA;
+	color: #EAEAEA;
 }
 
 nav a:hover {
-    color: #869DC7;
-    background-color: #EAEAEA;
+	color: #869DC7;
+	background-color: #EAEAEA;
 }
