@@ -1,0 +1,179 @@
+/*
+Oleksandr Busol Final Project
+main css file responsible for the index.html
+*/
+
+#wrapper {
+    background: linear-gradient(0deg, #e66465, #9198e5);
+    margin: auto;
+    width: 85%;
+	min-width: 1200px;
+	max-width: 1900px;
+    min-height: 750px;
+    max-height: 5000px;
+    
+    
+}
+
+body {
+    background-color: slategray;
+    font-family: verdana;
+    
+}
+
+h1, h2, h3, footer {
+    font-family: fantasy, cursive;
+}
+
+p, nav {
+    font-family: monospace;
+    font-size: 125%;
+}
+
+iframe {
+    margin: auto;
+}
+
+header, footer {
+    padding: 10px;
+}
+
+h2, p, he{
+    text-align: center;
+
+ 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+footer {
+    position: relative;
+    background-color: #efefef;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+   
+}
+
+.images {
+    position:relative; 
+    width:100% 
+    max-width:600px; 
+    margin: auto; 
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.imgBlock {
+    position:relative;
+    display: inline-block;
+    padding:10px;
+
+    height: 250px;
+    width: auto;
+ 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.starImg {
+    
+    display: inline-block;
+    height: 250px;
+    width: auto;
+ 
+}
+
+
+.stars {
+    position:relative; 
+    width:100% 
+    max-width:600px; 
+    margin: auto; 
+    padding-bottom: 15px;
+    text-align:center;
+}
+
+
+.gpic {
+    
+  position:relative;
+    display: inline-block;
+    padding:10px;
+
+    height: 350px;
+    width: auto;
+ 
+   
+}
+.galaxyblock1 {
+  
+    position:relative; 
+    width:100%;
+    max-width:2000px; 
+    margin: auto;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    }
+
+
+
+
+header {
+    background-image: url('../images/headerbg.jpg');
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav {
+    display: table;
+    width: 100%;
+    
+}
+nav ul {
+  
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+nav li {
+    display: table-cell;
+    width: 19%;
+}
+nav a {
+	text-decoration: none;
+    text-align: center;
+	background-color: #B3C7E6;
+    padding: 14px 51px;
+    display: block;
+}
+
+nav a:link {
+	color: #FFFFFF; 
+}
+
+nav a:visited {
+	color: #EAEAEA;
+}
+
+nav a:hover {
+	color: #869DC7;
+	background-color: #EAEAEA;
+}
